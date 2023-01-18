@@ -1,0 +1,49 @@
+button {
+  color: white;
+  font-family: "Pangolin", cursive;
+  margin: 20px;
+  padding: 15px;
+  background-color: #39b2b4;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+button font {
+  size: 14px;
+}
+button:hover {
+  font-size: 18px;
+  box-shadow: 1px 1px 10px 13px #00ffff;
+  -webkit-box-shadow: 4px -3px 54px -2px #00ffff;
+  -moz-box-shadow: 4px -3px 54px -2px #00ffff;
+  -o-box-shadow: 4px -3px 54px -2px #00ffff;
+}
+
+html {
+  width: 100%;
+  margin: 0;
+}
+html body {
+  margin: 0;
+  width: 100%;
+  background-color: #e9d9c1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html body img {
+  border: 2px solid white;
+  margin: 2em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 3em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #39b2b4;
+  margin-top: 227px;
+}/*# sourceMappingURL=style.css.map */

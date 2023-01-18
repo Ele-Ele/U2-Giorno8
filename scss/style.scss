@@ -1,0 +1,32 @@
+@import "variabili";
+@import "button";
+html {
+  width: $full-width;
+  margin: $no-margin;
+  body {
+    margin: $no-margin;
+    width: $full-width;
+    background-color: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      border: 2px solid white;
+      margin: 2em;
+    }
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: $header-margin;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: $color-primary;
+  margin-top: 227px;
+}
