@@ -26,7 +26,10 @@ nav {
   border-radius: 10px;
 
   ul {
+    margin: $no-margin;
+    padding: 0;
     display: flex;
+    align-items: center;
     list-style-type: none;
     li {
       cursor: pointer;
