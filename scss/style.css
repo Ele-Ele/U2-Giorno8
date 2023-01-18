@@ -59,6 +59,8 @@ nav ul li:hover {
 }
 
 footer {
+  font-family: "Pangolin", cursive;
+  color: white;
   display: flex;
   justify-content: center;
   background-color: #39b2b4;
