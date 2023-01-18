@@ -18,15 +18,32 @@ html {
   }
 }
 
-header {
+nav {
+  background-color: $color-primary;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: $header-margin;
+  border-radius: 10px;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    li {
+      cursor: pointer;
+      font-family: "Pangolin", cursive;
+      color: white;
+      margin: 10px;
+      &:hover {
+        font-size: large;
+      }
+    }
+  }
 }
 
 footer {
   display: flex;
   justify-content: center;
   background-color: $color-primary;
-  margin-top: 227px;
+  margin-top: 22px;
+  height: 60px;
 }

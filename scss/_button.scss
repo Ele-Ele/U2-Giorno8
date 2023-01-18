@@ -4,12 +4,10 @@ button {
   font {
     size: 14px;
   }
-  margin: $button-margin;
   padding: $button-padding;
   background-color: $color-primary;
   &:hover {
     font-size: 18px;
-
     box-shadow: 1px 1px 10px 13px #00ffff;
     -webkit-box-shadow: 4px -3px 54px -2px #00ffff;
     -moz-box-shadow: 4px -3px 54px -2px #00ffff;

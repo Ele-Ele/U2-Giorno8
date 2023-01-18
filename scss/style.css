@@ -1,8 +1,7 @@
 button {
   color: white;
   font-family: "Pangolin", cursive;
-  margin: 20px;
-  padding: 15px;
+  padding: 20px;
   background-color: #39b2b4;
   border: 2px solid white;
   border-radius: 15px;
@@ -35,15 +34,31 @@ html body img {
   margin: 2em;
 }
 
-header {
+nav {
+  background-color: #39b2b4;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: 3em;
+  border-radius: 10px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+  cursor: pointer;
+  font-family: "Pangolin", cursive;
+  color: white;
+  margin: 10px;
+}
+nav ul li:hover {
+  font-size: large;
 }
 
 footer {
   display: flex;
   justify-content: center;
   background-color: #39b2b4;
-  margin-top: 227px;
+  margin-top: 22px;
+  height: 60px;
 }/*# sourceMappingURL=style.css.map */
